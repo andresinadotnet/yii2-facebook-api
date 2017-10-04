@@ -6,6 +6,9 @@
         "facebook",
         "php-api"
     ],
+    "support": {
+       "source": "https://github.com/anderl1/yii2-facebook-api"
+    },
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
