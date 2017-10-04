@@ -1,23 +1,13 @@
 {
     "name": "anderl1/yii2-facebook-api",
-    "description": "Facebook API for the Yii2 framework",
-    "keywords": [
-        "yii2",
-        "facebook",
-        "php-api"
-    ],
- "repositories": [
-    {
-        "type": "vcs",
-    	"url": "https://github.com/anderl1/yii2-facebook-api"
-	}
-]
+    "description": "Provides methods for the dynamic manipulation of images. Various image formats such as JPEG, PNG, and GIF can be resized, cropped, rotated.",
     "type": "yii2-extension",
-    "license": "BSD-3-Clause",
+    "keywords": ["yii2", "extension"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "Andreas Fischer",
-            "email": "webmaster@andresina.net"
+            "name": "Dmitry Semenov",
+            "email": "disemx@gmail.com"
         }
     ],
     "require": {
@@ -25,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "anderl1\\facebbook\\": "facebook"
+            "facebook\\api\\": "facebook"
         }
     }
 }
