@@ -1,0 +1,25 @@
+{
+    "name": "anderl1/yii2-google-analytics",
+    "description": "Facebook API for the Yii2 framework",
+    "keywords": [
+        "yii2",
+        "facebook",
+        "php-api"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andreas Fischer",
+            "email": "webmaster@andresina.net"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "anderl1\\facebbok\\": "src"
+        }
+    }
+}
