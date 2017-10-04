@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "anderl1\\facebbok\\": "src"
+            "anderl1\\facebbook\\": "facebook"
         }
     }
 }
